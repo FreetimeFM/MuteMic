@@ -3,8 +3,8 @@
     Adapted from https://www.autohotkey.com/boards/viewtopic.php?style=7&t=15509
     Attempts to mute the microphone.
 */
-Pause:: ; Hotkey, On UltraNote: Fn + PgDn (Pause).
-HideTrayTip() ; Hides previous toast if shown.
+Pause:: ; Hotkey is Pause button.
+HideTrayTip() ; Hides previous traytip if shown.
 
 /*
     To get mic_id run getSoundDevices.ahk and get value from 'Mixer' column.
